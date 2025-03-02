@@ -1,0 +1,66 @@
+[
+    {
+      "id": 1,
+      "country": "India",
+      "capital": "New Delhi",
+      "population": 1400000000,
+      "interesting_fact": "India is the world's largest democracy."
+    },
+    {
+      "id": 2,
+      "country": "United States",
+      "capital": "Washington, D.C.",
+      "population": 331000000,
+      "interesting_fact": "The U.S. has no official language at the federal level."
+    },
+    {
+      "id": 3,
+      "country": "Japan",
+      "capital": "Tokyo",
+      "population": 125000000,
+      "interesting_fact": "Japan has more than 6,800 islands."
+    },
+    {
+      "id": 4,
+      "country": "Brazil",
+      "capital": "Brasília",
+      "population": 214000000,
+      "interesting_fact": "Brazil is home to the Amazon Rainforest, which produces 20% of the world's oxygen."
+    },
+    {
+      "id": 5,
+      "country": "Germany",
+      "capital": "Berlin",
+      "population": 83000000,
+      "interesting_fact": "Germany is home to the world’s first highway system, the Autobahn."
+    },
+    {
+      "id": 6,
+      "country": "Australia",
+      "capital": "Canberra",
+      "population": 26000000,
+      "interesting_fact": "Australia has more kangaroos than people."
+    },
+    {
+      "id": 7,
+      "country": "Canada",
+      "capital": "Ottawa",
+      "population": 38000000,
+      "interesting_fact": "Canada has the longest coastline of any country in the world."
+    },
+    {
+      "id": 8,
+      "country": "Russia",
+      "capital": "Moscow",
+      "population": 144000000,
+      "interesting_fact": "Russia is the largest country by land area, covering 11 time zones."
+    },
+    {
+      "id": 9,
+      "country": "China",
+      "capital": "Beijing",
+      "population": 1412000000,
+      "interesting_fact": "China has the world's largest population."
+    }   
+  ]
+  
