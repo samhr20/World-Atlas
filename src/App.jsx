@@ -1,12 +1,13 @@
 import React from 'react'
 import { createBrowserRouter } from 'react-router-dom'
+import { RouterProvider } from 'react-router'
 import AppLayout from './components/Layout/AppLayout'
 import Home from './pages/Home'
 import About from './pages/About'
 import Contact from './pages/Contact'
 import Country from './pages/Country'
 import ErrorPage from './pages/ErrorPage'
-import { RouterProvider } from 'react-router'
+import CountryDetails from './pages/CountryDetails'
 
 const router = createBrowserRouter([
   {
@@ -30,6 +31,10 @@ const router = createBrowserRouter([
         path: '/country',
         element: <Country />
       },
+      {
+        path:'/country/:countryName',
+        element:<CountryDetails/>
+      }
     ]
   }
 

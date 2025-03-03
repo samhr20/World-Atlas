@@ -25,7 +25,7 @@ const Footer = () => {
           ))}
         </div>
 
-        <div className='flex flex-col sm:flex-row justify-between items-start sm:items-center gap-6 sm:gap-10'>
+        <div className='flex flex-col sm:flex-row justify-between items-start sm:items-center gap-10 sm:gap-10'>
           <ul className='flex flex-col sm:flex-row gap-4 sm:gap-8'>
             <li className='hover:text-blue-500 hover:underline'>
               <Link to={'/'}>Home</Link>

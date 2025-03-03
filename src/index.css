@@ -1,1 +1,27 @@
 @import "tailwindcss";
+
+@font-face {
+    font-family: bebas-neue;
+    src: url('./assets/fonts/Bebas_Neue/BebasNeue-Regular.ttf');
+}
+
+@font-face {
+    font-family: poppins;
+    src: url('./assets/fonts/Poppins');
+}
+
+@font-face {
+    font-family: lilita-one;
+    src: url('./assets/fonts/Lilita_One');
+}
+
+@theme {
+    --font-bebas-neue: "Bebas Neue", sans-serif;
+    --font-poppins:
+        --font-lilita-one: "Lilita One", sans-serif;
+}
+
+body {
+    font-family: var(--font-poppins);
+    font-weight: 400;
+}
