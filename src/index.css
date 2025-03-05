@@ -25,3 +25,6 @@ body {
     font-family: var(--font-poppins);
     font-weight: 400;
 }
+
+
+@custom-variant dark (&:where(.dark, .dark *));

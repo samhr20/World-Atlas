@@ -29,7 +29,7 @@ const CountryDetails = () => {
 
   return (
     <>
-    <div className='min-h-[500px] bg-gradient-to-tl from-black to-zinc-800 text-white '>
+    <div className='min-h-[500px]  dark:bg-gradient-to-tl dark:from-black dark:to-zinc-800 bg-[#F8F9FA] dark:text-white '>
     {loader ? (
         <div className="flex justify-center items-center h-[300px]">
           <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-blue-500"></div>
@@ -39,11 +39,11 @@ const CountryDetails = () => {
           <img src={country.flags.png} alt={country.name.common} className='w-full rounded-lg max-w-[270px] max-h-[200px] object-cover' />          
           <div>
             <h1 className='text-6xl font-bold mb-7'>{country.name.common}</h1>
-            <p className='text-[17px] mb-2'><span className='text-gray-400 font-semibold'>Capital:</span> {country.capital}</p>
-            <p className='text-[17px] mb-2'><span className='text-gray-400 font-semibold'>Region:</span> {country.region}</p>
-            <p className='text-[17px] mb-2'><span className='text-gray-400 font-semibold'>Population:</span> {country.population}</p>
-            <p className='text-[17px] mb-2'><span className='text-gray-400 font-semibold'>Domain:</span> {country.tld[0]}</p>
-            <p className='text-[17px] mb-2'><span className='text-gray-400 font-semibold'>Timezone:</span> {country.timezones[0]}</p>
+            <p className='text-[17px] mb-2'><span className='dark:text-gray-400 font-semibold'>Capital:</span> {country.capital}</p>
+            <p className='text-[17px] mb-2'><span className='dark:text-gray-400 font-semibold'>Region:</span> {country.region}</p>
+            <p className='text-[17px] mb-2'><span className='dark:text-gray-400 font-semibold'>Population:</span> {country.population}</p>
+            <p className='text-[17px] mb-2'><span className='dark:text-gray-400 font-semibold'>Domain:</span> {country.tld[0]}</p>
+            <p className='text-[17px] mb-2'><span className='dark:text-gray-400 font-semibold'>Timezone:</span> {country.timezones[0]}</p>
           </div>
         </div>
       )}
