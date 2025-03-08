@@ -12,7 +12,6 @@ const CountryDetails = () => {
     try {
       const response = await axios.get(`https://restcountries.com/v3.1/name/${countryName}`);
       const data = response.data[0];
-      console.log(data);
       setCountry(data);
     } catch (error) {
       console.error('Error fetching country data:', error);
